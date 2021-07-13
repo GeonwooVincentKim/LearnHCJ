@@ -10,13 +10,21 @@ p{
     color: grey;
 }
 
-/* Inheritated from `P` Selection tag */
+/* 
+    1. Inheritated from `P` Selection tag
+    2. You can add new features into `Class Selector's attribute tag`
+*/
 .detail_p{
     background-color: green;
     text-shadow: 1px;
 }
 
-/* Inheritated from `P` Selection tag */
+/* 
+    1. Inheritated from `P` Selection tag 
+    2. Even you defined `Property`, named `text-decoration as grey in the parent `Selector`, 
+       you can change some feature of `Property`, named `text-decoration` here
+    3. Some of the feature inheritated from parent CSS Selection tags, for here, it was inheritated from `p` tag
+*/
 .detail_another_p{
     background-color: yellow;
     color: #fff;
