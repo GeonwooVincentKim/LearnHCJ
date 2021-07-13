@@ -38,7 +38,7 @@ p{
 }
 ```
 
-## Difference between `Non-attribute` CSS Tags and `Class-Attribute` CSS Tags
+## Difference between `Non-attribute` CSS Tags (Selector) and `Class-Attribute` CSS Tags (Selector)
 
 ### `Non-Attribute` CSS Tags
 - `Non-Attribute` CSS Tags apply attribute design into every same `Selector` tags
@@ -68,5 +68,34 @@ p{
 .p_tag_attribute{
     color: blue;
     text-align: right;
+}
+```
+
+### `*` Selector
+- Select all elements, and set their `Property` to `Value`
+
+```HTML
+<html>
+    <head>
+        <title>Title</title>
+    </head>
+
+    <body>
+        <h1>This is Main-Title <b>TEXT</b></h1>
+        <h3>This is Sub-Title <b>TEXT</b></h3>
+        <div class="div_property">
+            <ul>
+                <li>Prop1</li>
+                <li>Prop2</li>
+                <li>Prop3</li>
+            </ul>
+        </div>
+    </body>
+</html>
+```
+```CSS
+*{
+    margin: 0 auto;
+    padding: 0;
 }
 ```
