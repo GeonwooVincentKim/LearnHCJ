@@ -39,6 +39,8 @@ p{
 ```
 
 ## Difference between `Non-attribute` CSS Tags and `Class-Attribute` CSS Tags
+
+### `Non-Attribute` CSS Tags
 - `Non-Attribute` CSS Tags apply attribute design into every same `Selector` tags
 - For the Example
 
@@ -55,6 +57,7 @@ p{
 }
 ```
 
+### `Class-Attribute` CSS Tags
 - `Class-Attribute` CSS Tags apply attribute design into specified `Selector` tags by using `.`
 - For the Example
 
