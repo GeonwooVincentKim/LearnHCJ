@@ -37,3 +37,33 @@ p{
     text-align: center;
 }
 ```
+
+## Difference between `Non-attribute` CSS Tags and `Class-Attribute` CSS Tags
+- `Non-Attribute` CSS Tags apply attribute design into every same `Selector` tags
+- For the Example
+
+```HTML
+<p>P Tag Text</p>
+```
+```CSS
+/*
+    In this case every `p` tags CSS Desigh has same one
+*/
+p{
+    color: blue;
+    text-align: right;
+}
+```
+
+- `Class-Attribute` CSS Tags apply attribute design into specified `Selector` tags by using `.`
+- For the Example
+
+```HTML
+<p class='p_tag_attribute'>P Tag Text</p>
+```
+```CSS
+.p_tag_attribute{
+    color: blue;
+    text-align: right;
+}
+```
