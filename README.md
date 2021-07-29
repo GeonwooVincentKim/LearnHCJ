@@ -197,3 +197,30 @@ img[src*=Landscape-Color]{
     padding: 0;
 }
 ```
+
+### `Chaining` CSS Tags
+- `Chaining` CSS Tags are possible to require an HTML element to have two or more `CSS Selectors` at the same time.
+- `Chaining` CSS Tags apply it owns design into `HTML Tags` which are named `Type Selector` and the `Class-Attribute` of `Type-Selector`, specified tags.
+- For example
+
+```HTML
+<h1 class="main_title"></h1>
+```
+```CSS
+/*
+    All of `h1` tags apply this design
+*/
+h1{
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+/*
+    Some part of `h1` tags which have `class-attribute`, named `main_title`
+    apply this design below
+*/
+h1.main_title{
+    color: lightblue;
+    font-family: bold;
+}
+```
