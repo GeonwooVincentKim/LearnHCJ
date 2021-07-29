@@ -71,6 +71,25 @@ p{
 }
 ```
 
+### `Multiple-Class-Attribute` CSS Tags
+- `Mulitple-Class-Attribute` CSS Tags apply several attributes design into specified `Selector` tags by using `.`
+- For the Example
+
+```HTML
+<p class='p_tag_font p_tag_color'></p>
+```
+```CSS
+.p_tag_font{
+    font-size: 10px;
+    text-decoration: none;
+}
+
+.p_tag_color{
+    color: green;
+    background-color: GreenYellow;
+}
+```
+
 ### `*` Selector
 - Select all elements, and set their `Property` to `Value`
 
