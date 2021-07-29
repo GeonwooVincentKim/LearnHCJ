@@ -90,6 +90,61 @@ p{
 }
 ```
 
+### `Attribute` CSS Tags
+- `Attribute` CSS Tags can apply `href` and `src` which are specialized `Selector` tags by using `[href]`, `a[href*='name_of_a_href_last_position']`, `img[src*='last_part_of_src_name']`
+
+- `[href]` which are selects all of `href` tags and apply it owns design into every `href` tags
+```HTML
+<a href="https://pixabay.com/images/search/sea/">Link to PixaBay Image</a>
+<a href="https://en.wikipedia.org/wiki/Image">Link to Wikipedia</a>
+```
+```CSS
+[href]{
+    font-size: 8px;
+    font-family: "Times New Roman", serif;
+    font-weight: oblique;
+}
+```
+
+- `a[href*='name_of_a_href_last_position']` selects the href name that matches the `CSS Attribute` tag name and apply it owns design into specified `href` tags
+```HTML
+<a href="https://pixabay.com/images/search/sea/">Link to PixaBay Image</a>
+<a href="https://en.wikipedia.org/wiki/Image">Link to Wikipedia</a>
+```
+```CSS
+[href]{
+    font-size: 8px;
+    font-family: "Times New Roman", serif;
+    font-weight: oblique;
+}
+
+a[href*=sea]{
+    font-weight: bold;
+    color: lightblue;
+}
+
+a[href*=Image]{
+    font-weight: bold;
+    color: lightgreen;
+}
+```
+
+- `img[src*='last_part_of_src_name']` selects the src name that matches the `CSS src` tag name and apply it owns design into specified `src` tags
+```HTML
+<img src='https://content.codecademy.com/courses/freelance-1/unit-2/explorer.jpeg'/>
+<img src="https://helpx.adobe.com/content/dam/help/en/photos…before_and_after/image-before/Landscape-Color.jpg"/>
+```
+```CSS
+img[src*=explorer]{
+    height: 300px;
+}
+
+img[src*=Landscape-Color]{
+    height: 350px;
+}
+```
+
+
 ### `*` Selector
 - Select all elements, and set their `Property` to `Value`
 
