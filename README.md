@@ -90,6 +90,8 @@ p{
 }
 ```
 
+## Other `CSS-Selector` Tags
+
 ### `Attribute` CSS Tags
 - `Attribute` CSS Tags can apply `href` and `src` which are specialized `Selector` tags by using `[href]`, `a[href*='name_of_a_href_last_position']`, `img[src*='last_part_of_src_name']`
 
