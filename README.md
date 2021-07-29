@@ -224,3 +224,25 @@ h1.main_title{
     font-family: bold;
 }
 ```
+
+### `Descendant Combinator` CSS Tags
+- `Descendant Combinator` CSS Tags select `class-attribute` and the `child-tag(Type Selector)` of `class-attribute` and apply it owns design
+
+```HTML
+<ul class="main-list">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+</ul>
+```
+```CSS
+.main_list{
+    background-color: cyan;
+}
+
+.main_list li{
+    list-style-type: none;
+    float: left;
+}
+```
