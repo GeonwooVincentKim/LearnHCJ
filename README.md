@@ -90,6 +90,28 @@ p{
 }
 ```
 
+## `ID-Attribute` CSS Tags
+- `ID Attribute` select a single element with CSS Tags to give it its own unique style by using `#`
+- For the Example
+
+```HTML
+<div id="menu">
+    <div class="menu-detail"></div>
+    <div class="menu-detail"></div>
+</div>
+```
+```CSS
+#menu{
+    margin: 10;
+    font-size: 10px;
+}
+
+.menu-detail{
+    font-color: cyan;
+    font-family: sans-serif;
+}
+```
+
 ## Other `CSS-Selector` Tags
 
 ### `Attribute` CSS Tags
